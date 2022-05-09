@@ -18,6 +18,8 @@ import {
   selectDestination
 } from "../slices/navSlice";
 import { useSelector } from "react-redux";
+import "intl";
+import "intl/locale-data/jsonp/en";
 
 const data = [
   {
